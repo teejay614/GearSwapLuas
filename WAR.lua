@@ -60,9 +60,26 @@ function get_sets()
             }
         },
     }
+
+    sets.JA = {}
+
+    sets.JA.MightyStrikes = { hands = "Agoge Mufflers +1" }
+    sets.JA.Berserk = { body = "Pumm. Lorica +3" }
+    sets.JA.Defender = {}
+    sets.JA.Warcry = { head = "Agoge Mask +1" }
+    sets.JA.Aggressor = { head = "Pummeler's Mask +3", body = "Agoge Lorica +1" }
+    sets.JA.Retaliation = { hands = "Pumm. Mufflers +3" }
+    sets.JA.Tomahawk = { feet = "Agoge Calligae +1" }
+    sets.JA.Restraint = {}
+    sets.JA.BloodRage = {}
+    sets.JA.BrazenRush = {}
 end
 
 function precast(spell)
+    if spell.type == "JobAbility" and sets.JA[spell.english] then
+        equip(sets.JA[spell.english])
+        return
+    end
     if spell.type == "WeaponSkill" then
         equip(sets.WS)
     end
