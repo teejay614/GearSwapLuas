@@ -1,21 +1,18 @@
 function get_sets()
     sets.TP = {
         ammo = "Ginsen",
-        head = "Mummu Bonnet +2",
-        body = "Mummu Jacket +2",
+        head = "Malignance Chapeau",
+        body = "Malignance Tabard",
         hands = "Mummu Wrists +2",
         legs = "Mummu Kecks +2",
         feet = "Mummu Gamash. +2",
-        neck = "Anu Torque",
-        waist = { name = "Sailfi Belt +1", augments = { 'Path: A', } },
+        neck = "Null Loop",
+        waist = "Null Belt",
         left_ear = "Cessance Earring",
         right_ear = "Brutal Earring",
         left_ring = "Niqmaddu Ring",
         right_ring = "Petrov Ring",
-        back = {
-            name = "Toutatis's Cape",
-            -- You own this cape but no augments listed, so left clean
-        },
+        back = "Null Shawl",
     }
 
     sets.WS = {
@@ -31,9 +28,7 @@ function get_sets()
         right_ear = { name = "Moonshade Earring", augments = { 'Accuracy+4', 'TP Bonus +250', } },
         left_ring = "Niqmaddu Ring",
         right_ring = "Begrudging Ring",
-        back = {
-            name = "Toutatis's Cape",
-        },
+        back = "Toutatis's Cape",
     }
 
     sets.idle = {
