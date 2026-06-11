@@ -1,8 +1,8 @@
 function get_sets()
     sets.TP = {
         ammo = "Ginsen",
-        head = "Flam. Zucchetto +2",
-        body = "Pumm. Lorica +3",
+        head = "Pummeler's Mask +3",
+        body = "Pumm. Lorica +4",
         hands = "Pumm. Mufflers +3",
         legs = "Pumm. Cuisses +4",
         feet = "Pumm. Calligae +4",
@@ -23,7 +23,7 @@ function get_sets()
     sets.WS = {
         ammo = "Knobkierrie",
         head = "Pummeler's Mask +3",
-        body = "Pumm. Lorica +3",
+        body = "Pumm. Lorica +4",
         hands = "Pumm. Mufflers +3",
         legs = "Pumm. Cuisses +4",
         feet = "Pumm. Calligae +4",
@@ -64,7 +64,7 @@ function get_sets()
     sets.JA = {}
 
     sets.JA.MightyStrikes = { hands = "Agoge Mufflers +1" }
-    sets.JA.Berserk = { body = "Pumm. Lorica +3" }
+    sets.JA.Berserk = { body = "Pumm. Lorica +4" }
     sets.JA.Defender = {}
     sets.JA.Warcry = { head = "Agoge Mask +1" }
     sets.JA.Aggressor = { head = "Pummeler's Mask +3", body = "Agoge Lorica +1" }
