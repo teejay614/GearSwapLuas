@@ -15,7 +15,7 @@ function get_sets()
         back = {
             name = "Cichol's Mantle",
             augments = {
-                'DEX+20', 'Accuracy+20 Attack+20', '"Dbl.Atk."+10', 'Phys. dmg. taken-10%',
+                '"Dbl.Atk."+10', 'Accuracy+20 Attack+20', 'DEX+20', 'Phys. dmg. taken-10%',
             }
         },
     }
@@ -56,7 +56,7 @@ function get_sets()
         back = {
             name = "Cichol's Mantle",
             augments = {
-                'DEX+20', 'Accuracy+20 Attack+20', '"Dbl.Atk."+10', 'Phys. dmg. taken-10%',
+                '"Dbl.Atk."+10', 'Accuracy+20 Attack+20', 'DEX+20', 'Phys. dmg. taken-10%',
             }
         },
     }
