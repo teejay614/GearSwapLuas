@@ -66,7 +66,7 @@ function get_sets()
     sets.JA.MightyStrikes = { hands = "Agoge Mufflers +1" }
     sets.JA.Berserk = { body = "Pumm. Lorica +4" }
     sets.JA.Defender = {}
-    sets.JA.Warcry = { head = "Agoge Mask +1" }
+    sets.JA.Warcry = { head = "Agoge Mask +3" }
     sets.JA.Aggressor = { head = "Pummeler's Mask +3", body = "Agoge Lorica +1" }
     sets.JA.Retaliation = { hands = "Pumm. Mufflers +3" }
     sets.JA.Tomahawk = { feet = "Agoge Calligae +1" }
